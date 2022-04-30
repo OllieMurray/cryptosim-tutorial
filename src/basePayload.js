@@ -1,16 +1,16 @@
-import nacl from 'tweetnacl';
-import binary from '@cryptosat/cryptosim/lib/binary';
-import GeoCoordinates from '@cryptosat/cryptosim/lib/geoCoordinates';
-import GroundStation from '@cryptosat/cryptosim/lib/groundStation';
-import GroundStationNetwork from '@cryptosat/cryptosim/lib/groundStationNetwork';
-import LookAngle from '@cryptosat/cryptosim/lib/lookAngle';
-import Orbit from '@cryptosat/cryptosim/lib/orbit';
-import Satellite from '@cryptosat/cryptosim/lib/satellite';
-import Universe from '@cryptosat/cryptosim/lib/universe';
-import MainClient from '@cryptosat/cryptosim/lib/clients/main';
-import MainService from '@cryptosat/cryptosim/lib/services/main';
-import Service from '@cryptosat/cryptosim/lib/services/service';
-import SimulatedClock from '@cryptosat/cryptosim/lib/clocks/simulatedClock';
+import nacl from "tweetnacl";
+import binary from "@olliemurray/cryptosimmod/lib/binary";
+import GeoCoordinates from "@olliemurray/cryptosimmod/lib/geoCoordinates";
+import GroundStation from "@olliemurray/cryptosimmod/lib/groundStation";
+import GroundStationNetwork from "@olliemurray/cryptosimmod/lib/groundStationNetwork";
+import LookAngle from "@olliemurray/cryptosimmod/lib/lookAngle";
+import Orbit from "@olliemurray/cryptosimmod/lib/orbit";
+import Satellite from "@olliemurray/cryptosimmod/lib/satellite";
+import Universe from "@olliemurray/cryptosimmod/lib/universe";
+import MainClient from "@olliemurray/cryptosimmod/lib/clients/main";
+import MainService from "@olliemurray/cryptosimmod/lib/services/main";
+import Service from "@olliemurray/cryptosimmod/lib/services/service";
+import SimulatedClock from "@olliemurray/cryptosimmod/lib/clocks/simulatedClock";
 
 const payload = {
   binary: binary,
@@ -26,7 +26,6 @@ const payload = {
   MainService: MainService,
   Service: Service,
   SimulatedClock: SimulatedClock,
-}
-
+};
 
 export default payload;
